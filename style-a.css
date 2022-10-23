@@ -1,0 +1,48 @@
+ @import url('style-b.css');  
+@font-face {
+    font-family: "Raymont";
+    src: url(Raymont\ Qalimba.ttf);
+}
+@font-face {
+    font-family: 'fasthand';
+    src: url(Fasthand-Regular.ttf)
+}
+@font-face{
+    font-family: 'oswald';
+    src: url(Oswald-VariableFont_wght.ttf)
+}
+h1{
+    color: green;
+    font-family: "Raymont";
+    text-align: center;
+    text-decoration:underline blueviolet ;
+} 
+ h1{
+    color:yellow !important;
+ } 
+ h1{
+    font-family: 'oswald';
+    color: blue;
+ } 
+  
+ h2{
+    font-family: 'fasthand';
+    color: gray;
+ }
+  #mari{
+    color:blue;
+ } 
+ .selvam{
+    color: green;
+ }
+h2{
+    color: green;
+    font-family: "Raymont";
+    text-decoration:underline white ;
+}
+@media screen and (min-width:600px)
+{
+    div{
+        background-color: green;
+    }
+} 
